@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{% extends 'testapp/base.html' %}
+{% block body_block %}
+<div class="jumbotron">
+    <div class="container">
+        <h1>THANKS FOR USING MAHESH EXAMS..</h1>
+        <P>Anyways we are feeling very sad bcoz you loggedout, atleast 24-hr per day you have to use our app.. </P>
+        <h2>Please Login again For Exams and Enjoy..</h2>
+        <a href="{% url 'login' %}" class="btn btn-success">Login</a>
+
+    </div>
+</div>
+{% endblock %}
